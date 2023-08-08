@@ -1,0 +1,96 @@
+*{      margin:0;
+        padding:0;
+        box-sizing: border-box;
+        text-decoration: none;
+        font-family: 'Poppins',sans-serif; }
+
+body{   justify-content:  space-between;
+        min-height: 100vh;
+        background: white;
+        background-image: url(image.jpg);
+        background-size: cover;
+        background-repeat: no-repeat;
+        scroll-behavior: smooth; }
+
+.container{ margin: 10px;
+            display: flex;
+            justify-content: center; }
+
+.list{  background: #1a0f0689;
+        width: 650px;
+        padding: 10px;
+        box-shadow: 0 0 128px 0 rgba(242, 245, 242, 0.839),0 32px 64px -48px rgba(0,0,0,0.5);}
+
+
+.wrapper{   background: #2a383ec1;
+            width: 450px;
+            border-radius: 5px;
+            box-shadow: 0 0 128px 0 rgba(239, 238, 244, 0.914),0 32px 64px -48px rgba(0,0,0,0.5);}
+
+.form { padding: 25px 30px;}
+
+.form header{   font-size: 30px;
+                font-weight: 600;
+                padding-bottom: 10px;
+                border-bottom: 3px solid #0c0c0c;}
+
+.form form{  margin: 20px 0; }
+
+.form .name-details{    display: flex;
+                        flex-direction: column; }
+
+.form .field label{  margin-bottom: 2px; }
+
+.form .field{    display: flex;
+                 flex-direction: column;
+                 margin-bottom: 20px;  }
+
+.form .field input{ outline: none; }
+
+.form .input input:focus,
+.form .input input:valid{ border-color:rgba(97, 38, 92, 0); }
+
+.form .input input{     height: 40px;
+                        width: 100%;
+                        font-size: 18px;
+                        padding: 0 10px;
+                        border: 3px solid #010101c8; }
+
+.form .image input{ font-size: 18px; }
+
+.form .button input{    margin-top: 13px;
+                        height: 45px;
+                        border: none;
+                        font-size: 20px;
+                        font-weight: 400;
+                        background:rgb(28, 28, 27);
+                        color: #f7f1f2fc;
+                        border-radius: 5px;
+                        cursor: pointer; }
+
+
+.form .button input:hover{
+                                margin-top: 13px;
+                                height: 45px;
+                                border: 2px solid white;
+                                font-size: 21px;
+                                font-weight: 400;
+                                background:rgb(28, 28, 27);
+                                color: #f7f1f2fc;
+                                border-radius: 5px;  }
+
+
+
+#task-list{     display: flex;
+                flex-direction: column;
+                justify-content: space-between;
+                align-items: center;
+                width: 450px;
+                margin-left: px; }
+
+
+th, td{ padding: 10px; }
+
+button{ background-color: rgb(15, 19, 16);
+        color: rgba(249, 249, 240, 0.568);
+        padding: 5px; }
